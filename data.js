@@ -35,74 +35,74 @@ var history_people = [
 	//Cyrus the Great
 	{begins : "-576", ends : "-530",
 	 text : "Cyrus The Great", 
-	 href : 'http://en.wikipedia.org/wiki/Cyrus_the_Great' },
+	 wikipedia : 'http://en.wikipedia.org/wiki/Cyrus_the_Great' },
 	 
 	// Alexander The Great 
 	{begins : "-356", ends : "-323", 
 	text : "Alexander The Great", 
-	href : 'http://en.wikipedia.org/wiki/Alexander_the_Great'},
+	wikipedia : 'http://en.wikipedia.org/wiki/Alexander_the_Great'},
 	
 	// Julius Caeser
 	{begins : "-100", ends : "-44", 
 	text : "Julius Caesar", 
-	href : 'http://en.wikipedia.org/wiki/Alexander_the_Great'},
+	wikipedia : 'http://en.wikipedia.org/wiki/Alexander_the_Great'},
 
 	// Cleopatra
 	{begins : "-69", ends : "-30", 
 	text : "Cleopatra", 
-	href : 'http://en.wikipedia.org/wiki/Cleopatra'},
+	wikipedia : 'http://en.wikipedia.org/wiki/Cleopatra'},
 	
 	// Emperor Justinian
 	{begins : "483", ends : "565-11-14",
 	text : "Justinian",
-	href : 'http://en.wikipedia.org/wiki/Justinian' },
+	wikipedia : 'http://en.wikipedia.org/wiki/Justinian' },
 	
 	//Eric the Red
 	{begins : "950", ends : "1003",
 	text : "Eric the Red",
-	href : 'http://en.wikipedia.org/wiki/Erik_the_Red' },
+	wikipedia : 'http://en.wikipedia.org/wiki/Erik_the_Red' },
 	
 	//Macbeth
 	{begins : "1005", ends : "1057",
 	text : "Macbeth",
-	href : 'http://en.wikipedia.org/wiki/Macbeth_I_of_Scotland',
+	wikipedia : 'http://en.wikipedia.org/wiki/Macbeth_I_of_Scotland',
 	tags : ['king-scotland'] },
 	
 	// William I
 	{begins : "1142", ends : "1214-12-14",
 	text : "William I of Scotland",
-	href : 'http://en.wikipedia.org/wiki/William_I_of_Scotland',
+	wikipedia : 'http://en.wikipedia.org/wiki/William_I_of_Scotland',
 	tags : ['king-scotland'] },
 
 	// Genghis Khan
 	{begins : "1162", ends : "1227",
 	text : "Genghis Khan",
-	href : 'http://en.wikipedia.org/wiki/Genghis_khan'},
+	wikipedia : 'http://en.wikipedia.org/wiki/Genghis_khan'},
 	
 	// Leonardo Da Vinci
 	{begins : "1452-04-15", ends : "1519-05-02",
 	text : "Leonardo Da Vinci", 
-	href : "http://en.wikipedia.org/wiki/Da_vinci"},
+	wikipedia : "http://en.wikipedia.org/wiki/Da_vinci"},
 
 	
 	// Henry VIII
 	{begins : "1491-06-28", ends : "1547-01-28",
 	text : "Henry VIII of England", 
-	href : "http://en.wikipedia.org/wiki/Henry_the_Eighth"},
+	wikipedia : "http://en.wikipedia.org/wiki/Henry_the_Eighth"},
 	
 	//Isaac Newton
 	{begins : "1643-01-04", ends : "1727-03-31",
 	text : "Isaac Newton",
-	href : "http://en.wikipedia.org/wiki/Isaac_newton" },
+	wikipedia : "http://en.wikipedia.org/wiki/Isaac_newton" },
 	
 	//Abraham Lincoln
 	{begins : "1809-02-12", ends : "1865-04-15", 
 	text : "Abraham Lincoln",
-	href : "http://en.wikipedia.org/wiki/Abraham_Lincoln"
+	wikipedia : "http://en.wikipedia.org/wiki/Abraham_Lincoln"
 	},
 	
 	//Winston Churchill
 	{begins : "1874-11-30", ends : "1965-01-24",
 	text : "Winston Churchill", 
-	href : "http://en.wikipedia.org/wiki/Churchill" }
+	wikipedia : "http://en.wikipedia.org/wiki/Churchill" }
 ]; 
