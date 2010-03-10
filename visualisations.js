@@ -10,7 +10,7 @@ $(function(){
 	} 
 
 
-	$.each(history_people.sort(function(a,b){
+	$.each(history_data.sort(function(a,b){
 			return parseTime(a['begins']) - parseTime(b['begins']);
 		}), function(x){
 			var d = this;
@@ -34,8 +34,8 @@ $(function(){
 			if (d['detail']){
 				$('#detail').html('<p>' + d['detail'] + '</p>');
 			} 
-			else if (d['href']){
-				$('#detail').html('<a href="' + d['href'] + '">' + d['text'] + "(" + d['href'] + "</a>");
+			else if (d['wikipedia']){
+				$('#detail').html('<a href="' + d['wikipedia'] + '">' + d['text'] + "(" + d['wikipedia'] + "</a>");
 			}	
 			else {
 				$('#detail').html('');
