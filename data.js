@@ -13,6 +13,8 @@ var history_events = [
 	//{begins : "-2000", text : 'Cotton grown in Peru', tag: ['americas', 'farming']},
 	{begins : "-1550", ends : "-1070", text : 'New Kingdom of Egypt', tag: ['egypt']},
 	//{begins : "-1500", text : 'Stone Temples built in Mexico', tag: ['americas']},
+	{begins : "-431", ends : "-404", text : 'Peloponnesian War', tag: ['ancient-greece'], wikipedia :"http://en.wikipedia.org/wiki/Peloponnesian_War"},
+
 	//{begins : "0", text : 'Birth of Christ', tag: ['middle-east']},
 	{begins : "330", ends : "1453", text : 'Byzantine Empire'},
 	{begins : "1206", ends : "1368", text : 'Mongol Conquests'},
@@ -43,6 +45,12 @@ var history_people = [
 	 text : "Darius I of Persia",
 	 civilisation : "Persia", 
 	 wikipedia : 'http://en.wikipedia.org/wiki/Darius_I_of_Persia' },
+	
+	// Leonidas 
+	{begins : "-540", ends : "-480-08-11", 
+	text : "Leonidas", 
+	civilisation : ["Greece", "Sparta"], 
+	wikipedia : 'http://en.wikipedia.org/wiki/Leonidas'},
 	 
 	// Socrates 
 	{begins : "-469", ends : "-399", 
