@@ -40,6 +40,12 @@ var history_people = [
 	 civilisation : "Persia", 
 	 wikipedia : 'http://en.wikipedia.org/wiki/Cyrus_the_Great' },
 
+	// Pythagoras 
+	{begins : "-570", ends : "-495", 
+	text : "Pythagoras", 
+	civilisation : "Greece", 
+	wikipedia : 'http://en.wikipedia.org/wiki/Pythagoras'},
+
 	//Darius the Great
 	{begins : "-550", ends : "-486",
 	 text : "Darius I of Persia",
