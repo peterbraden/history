@@ -37,43 +37,43 @@ var history_people = [
 	{begins : "-576", ends : "-530",
 	 text : "Cyrus The Great",
 	 subtitle : "King of Persia, King of Anshan, King of Media, King of Babylon, King of Sumer and Akkad, King of the four corners of the World",
-	 civilisation : "Persia", 
+	 civilisation : "persia", 
 	 wikipedia : 'http://en.wikipedia.org/wiki/Cyrus_the_Great' },
 
 	// Pythagoras 
 	{begins : "-570", ends : "-495", 
 	text : "Pythagoras", 
-	civilisation : "Greece", 
+	civilisation : "greece", 
 	wikipedia : 'http://en.wikipedia.org/wiki/Pythagoras'},
 
 	//Darius the Great
 	{begins : "-550", ends : "-486",
 	 text : "Darius I of Persia",
-	 civilisation : "Persia", 
+	 civilisation : "persia", 
 	 wikipedia : 'http://en.wikipedia.org/wiki/Darius_I_of_Persia' },
 	
 	// Leonidas 
 	{begins : "-540", ends : "-480-08-11", 
 	text : "Leonidas", 
-	civilisation : ["Greece", "Sparta"], 
+	civilisation : "greece",
 	wikipedia : 'http://en.wikipedia.org/wiki/Leonidas'},
 	 
 	// Socrates 
 	{begins : "-469", ends : "-399", 
 	text : "Socrates", 
-	civilisation : "Greece", 
+	civilisation : "greece", 
 	wikipedia : 'http://en.wikipedia.org/wiki/Socrates'},
 
 	// Plato 
 	{begins : "-428", ends : "-348", 
 	text : "Plato", 
-	civilisation : "Greece", 
+	civilisation : "greece", 
 	wikipedia : 'http://en.wikipedia.org/wiki/Plato'},
 	 
 	// Aristotle 
 	{begins : "-384", ends : "-322", 
 	text : "Aristotle",
-	civilisation : "Greece", 
+	civilisation : "greece", 
 	wikipedia : 'http://en.wikipedia.org/wiki/Aristotle'}, 
 	 
 	// Alexander The Great 
@@ -84,6 +84,7 @@ var history_people = [
 	// Julius Caeser
 	{begins : "-100", ends : "-44", 
 	text : "Julius Caesar", 
+	civilisation : 'rome',
 	wikipedia : 'http://en.wikipedia.org/wiki/Alexander_the_Great'},
 
 	// Cleopatra
@@ -94,28 +95,33 @@ var history_people = [
 	// Emperor Justinian
 	{begins : "483", ends : "565-11-14",
 	text : "Justinian",
+	civilisation : 'byzantine',
 	wikipedia : 'http://en.wikipedia.org/wiki/Justinian' },
 	
 	//Eric the Red
 	{begins : "950", ends : "1003",
 	text : "Eric the Red",
+	civilisation : 'viking',
 	wikipedia : 'http://en.wikipedia.org/wiki/Erik_the_Red' },
 	
 	//Macbeth
 	{begins : "1005", ends : "1057",
 	text : "Macbeth",
+	civilisation : 'scotland',
 	wikipedia : 'http://en.wikipedia.org/wiki/Macbeth_I_of_Scotland',
 	tags : ['king-scotland'] },
 	
 	// William I
 	{begins : "1142", ends : "1214-12-14",
 	text : "William I of Scotland",
+	civilisation : 'scotland',
 	wikipedia : 'http://en.wikipedia.org/wiki/William_I_of_Scotland',
 	tags : ['king-scotland'] },
 
 	// Genghis Khan
 	{begins : "1162", ends : "1227",
 	text : "Genghis Khan",
+	civilisation : 'mongol',
 	wikipedia : 'http://en.wikipedia.org/wiki/Genghis_khan'},
 	
 	// Leonardo Da Vinci
