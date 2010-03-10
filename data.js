@@ -79,13 +79,14 @@ var history_people = [
 	// Alexander The Great 
 	{begins : "-356", ends : "-323", 
 	text : "Alexander The Great", 
+	civilisation : 'greece',
 	wikipedia : 'http://en.wikipedia.org/wiki/Alexander_the_Great'},
 	
 	// Julius Caeser
 	{begins : "-100", ends : "-44", 
 	text : "Julius Caesar", 
 	civilisation : 'rome',
-	wikipedia : 'http://en.wikipedia.org/wiki/Alexander_the_Great'},
+	wikipedia : 'http://en.wikipedia.org/wiki/Julius_caesar'},
 
 	// Cleopatra
 	{begins : "-69", ends : "-30", 

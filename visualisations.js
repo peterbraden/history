@@ -44,7 +44,9 @@ $(function(){
 				$('#detail').html('<p>' + d['detail'] + '</p>');
 			} 
 			else if (d['wikipedia']){
-				$('#detail').html('<a href="' + d['wikipedia'] + '">' + d['text'] + "(" + d['wikipedia'] + "</a>");
+				$('#detail').html('<h2><a href="' + d['wikipedia'] + '">' + d['text'] + "(" + d['wikipedia'] + ")</a></h2>"
+					+ "<iframe src = '" + d['wikipedia'] + "' width = '500px' height = '500px' ></iframe>"
+				);
 			}	
 			else {
 				$('#detail').html('');
