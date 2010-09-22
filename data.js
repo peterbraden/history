@@ -16,7 +16,7 @@ var history_events = [
 	{begins : "-431", ends : "-404", text : 'Peloponnesian War', tag: ['ancient-greece'], wikipedia :"http://en.wikipedia.org/wiki/Peloponnesian_War"},
 
 	//{begins : "0", text : 'Birth of Christ', tag: ['middle-east']},
-	{begins : "330", ends : "1453", text : 'Byzantine Empire'},
+	{begins : "330", ends : "1453", text : 'Byzantine Empire', civilisation : 'byzantine'},
 	{begins : "1206", ends : "1368", text : 'Mongol Conquests'},
 	{begins : "1583", ends : "1914", text : 'British Empire'},
 	{begins : "1660", ends : "1662", text : 'Qing Dynasty conquers Ming Dynasty'},
@@ -91,6 +91,7 @@ var history_people = [
 	// Cleopatra
 	{begins : "-69", ends : "-30", 
 	text : "Cleopatra", 
+	civilisation : 'egypt',
 	wikipedia : 'http://en.wikipedia.org/wiki/Cleopatra'},
 	
 	// Emperor Justinian

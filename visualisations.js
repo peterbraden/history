@@ -11,7 +11,9 @@ $(function(){
 	var civ_colors = {
 		'greece' : '#99f',
 		'persia' : '#f99',
-		'rome' : '#9f9'
+		'rome' : '#9f9',
+		'egypt' : '#ff9',
+		'byzantine' : '#5f5'
 	}
 
 	var makePos = function(i){
